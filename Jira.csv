@@ -1,0 +1,396 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Relates),Attachment,Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Impact),Custom field (Issue color),Custom field (Rank),Custom field (Request Type),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field ([CHART] Date of First Response),Status Category
+Verify the 'Save settings' button in the 'Edit profile' tab can be clicked without adding any data in any fields.,EL-107,10132,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 3:39 PM,07/Sep/21 4:23 PM,07/Sep/21 3:39 PM,07/Sep/21 4:23 PM,,0,Verify the 'Save settings' button in the 'Edit profile' tab can be clicked without adding any data in any fields and the button is not greyed out.,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000rj:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Save settings' button in the 'Edit profile' tab is clickable or not.,EL-106,10131,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 3:29 PM,07/Sep/21 4:23 PM,07/Sep/21 3:29 PM,07/Sep/21 4:23 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000rb:,,EL Sprint 1,,,,,,,,Done
+User is not able to get error or alert message when text is entered instead of URL in the 'Skype' field.,EL-105,10130,Bug,To Do,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 12:07 PM,08/Sep/21 5:18 AM,07/Sep/21 12:07 PM,,,0,"DESCRIPTION:
+
+The user is able to enter any text in the ‘Skype’ and no error/ alert message is displayed saying to specify only the URL.
+
+STEPS TO REPRODUCE:
+
+# Go to the homepage of the E-learning site
+# Go to profile tab under ‘Home page’
+# Go to personal data under the ‘Profile’ tab.
+# Go to ‘Edit profile’ under the profile tab.
+# Enter any text in the ‘Skype’ field.
+# Click on the ‘save settings' button.
+
+EXPECTED RESULT:
+
+The user should be displayed with an error message saying “Please enter appropriate URL”.
+
+ACTUAL RESULT:
+
+The user is not getting any error or alert messages when no proper URL is entered in the ‘Skype' field.
+
+!image-20210907-121125.png|width=734,height=201!
+
+IMAGE: inappropriate URL entered in the ‘Skype' field.
+
+!image-20210907-121208.png|width=1182,height=130!
+
+
+
+IMAGE: Profile updated with inappropriate URL",,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,EL-104,EL-4,EL-104,07/Sep/21 12:12 PM;ug:682ee29c-3560-4b5b-9021-3fb9b5aed27e;image-20210907-121125.png;https://corporateola3.atlassian.net/secure/attachment/10008/image-20210907-121125.png,07/Sep/21 12:12 PM;ug:682ee29c-3560-4b5b-9021-3fb9b5aed27e;image-20210907-121208.png;https://corporateola3.atlassian.net/secure/attachment/10009/image-20210907-121208.png,,,,,,{},,,,,,,0|i000r3:,,EL Sprint 1,,,,,,,,To Do
+Verify the 'Skype' field in the 'Edit profile' accepts texts instead of URL.,EL-104,10129,Test,Blocked,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 12:05 PM,08/Sep/21 5:18 AM,07/Sep/21 3:28 PM,,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000qv:,,EL Sprint 1,,,,,,,,In Progress
+User is not able to get error or alert message when text is entered instead of URL in the 'LinkedIn profile URL' field.,EL-103,10128,Bug,To Do,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 11:48 AM,08/Sep/21 5:23 AM,07/Sep/21 4:23 PM,,,0,"DESCRIPTION:
+
+The user is able to enter any text in the ‘LinkedIn profile URL’ and no error/ alert message is displayed saying to specify only the URL.
+
+STEPS TO REPRODUCE:
+
+# Go to the homepage of the E-learning site
+# Go to profile tab under ‘Home page’
+# Go to personal data under the ‘Profile’ tab.
+# Go to ‘Edit profile’ under the profile tab.
+# Enter any text in ‘LinkedIn profile URL’ 
+# Click on the ‘save settings' button.
+
+EXPECTED RESULT:
+
+The user should be displayed with an error message saying “Please enter appropriate URL”.
+
+ACTUAL RESULT:
+
+The user is not getting any error or alert messages when no proper URL is entered in the ‘LinkedIn profile URL’ field.
+
+!image-20210907-115604.png|width=781,height=173!
+
+IMAGE: inappropriate URL entered in the ‘LinkedIn profile URL’ field.
+
+!image-20210907-115716.png|width=733,height=125!
+
+IMAGE: Profile updated with inappropriate URL",,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,EL-102,EL-4,EL-102,07/Sep/21 11:58 AM;ug:682ee29c-3560-4b5b-9021-3fb9b5aed27e;image-20210907-115604.png;https://corporateola3.atlassian.net/secure/attachment/10006/image-20210907-115604.png,07/Sep/21 11:58 AM;ug:682ee29c-3560-4b5b-9021-3fb9b5aed27e;image-20210907-115716.png;https://corporateola3.atlassian.net/secure/attachment/10007/image-20210907-115716.png,,,,,,{},,,,,,,0|i000qn:,,EL Sprint 1,,,,,,,,To Do
+Verify the 'LinkedIn profile URL' accepts texts instead of URL.,EL-102,10127,Test,Blocked,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 11:44 AM,08/Sep/21 5:23 AM,07/Sep/21 12:02 PM,,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000qf:,,EL Sprint 1,,,,,,,,In Progress
+Verify the 'New password' and 'confirm password' field with different passwords.,EL-101,10126,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 11:32 AM,07/Sep/21 4:23 PM,07/Sep/21 11:32 AM,07/Sep/21 4:23 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000q7:,,EL Sprint 1,,,,,,,,Done
+User is not able to get relevant error message when save settings button is clicked without entering password in the 'confirm password' field.,EL-100,10125,Bug,To Do,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 9:48 AM,08/Sep/21 5:28 AM,07/Sep/21 4:22 PM,,,0,"DESCRIPTION:
+
+The user is not able to get a relevant error message when the ‘save settings’ button is clicked without entering any data in the ‘Confirm password’ field.
+
+STEPS TO REPRODUCE:
+
+# Go to the Homepage of the E-learning site
+# Go to profile tab under home page section
+# Go to the ‘Personal data’ section under the profile tab.
+# Go to the Edit profile section under the profile tab.
+# Enter the password in the ‘New password’ section
+# Click on the ‘Save settings’ button without entering the password in the ‘Confirm password’ field.
+
+EXPECTED RESULT:
+
+User should get an error message saying, “Please enter the password in the ‘confirm password field”.
+
+ACTUAL RESULT:
+
+The user is able to get an error message saying, “You have typed two different passwords” while no password is entered in the ‘confirm password’ field.
+
+!image-20210907-100016.png|width=742,height=262!
+
+IMAGE: error message displayed when user failed to enter password in the ‘confirm password’ field.",,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,EL-99,EL-4,EL-99,07/Sep/21 10:01 AM;ug:682ee29c-3560-4b5b-9021-3fb9b5aed27e;image-20210907-100016.png;https://corporateola3.atlassian.net/secure/attachment/10005/image-20210907-100016.png,,,,,,,{},,,,,,,0|i000pz:,,EL Sprint 1,,,,,,,,To Do
+Verify the 'Confirm password' field from the 'edit profile' tab is mandatory or not.,EL-99,10124,Test,Blocked,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 9:40 AM,08/Sep/21 5:28 AM,07/Sep/21 11:59 AM,,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000pr:,,EL Sprint 1,,,,,,,,In Progress
+Verify the progress field of the 'New password' field in the 'Edit profile' section changes according to the password entered.,EL-98,10123,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 9:24 AM,07/Sep/21 4:23 PM,07/Sep/21 11:31 AM,07/Sep/21 4:23 PM,,0,"Verify the progress field \[weak, normal, medium, Strong] below the ‘New password’ field changes according to the password entered by the user in the ‘New password’ field.",,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000pj:,,EL Sprint 1,,,,,,,,Done
+Verify the 'New password' field in the 'Edit profile' section accepts special characters.,EL-97,10122,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 9:20 AM,07/Sep/21 4:23 PM,07/Sep/21 9:20 AM,07/Sep/21 4:23 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000pb:,,EL Sprint 1,,,,,,,,Done
+Verify the 'New password' field in the 'Edit profile' section accepts alphanumeric characters.,EL-96,10121,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 9:17 AM,07/Sep/21 4:23 PM,07/Sep/21 9:17 AM,07/Sep/21 4:23 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000p3:,,EL Sprint 1,,,,,,,,Done
+User is not able to get error or alert message when the user updates new password without entering current password in the 'Pass' field.,EL-95,10120,Bug,To Do,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 6:57 AM,08/Sep/21 5:27 AM,08/Sep/21 4:11 AM,,,0,"DESCRIPTION:
+
+The user is able to update the password without entering the current password in the ‘Pass’ field and no error or alert message is shown.
+
+
+
+STEPS TO REPRODUCE:
+
+# Go to Profile tab under home page tab
+# Go to ‘Personal data’ under the ‘profile’ tab
+# Go to ‘Edit profile’ under ‘Profile tab’ in the ‘Personal data’ section
+# Go to ‘New password’ and enter a new password
+# Go to the ‘Confirm password’ field and enter the new password again.
+# Click on the ‘Save settings’ button without entering current password in the ‘Pass’ field.
+
+EXPECTED RESULT:
+
+The user should not be able to change the password without entering the current password in the ‘Pass’ field and the user should get an error or alert message.
+
+ACTUAL RESULT:
+
+The user is able to change a new password without entering the current password and no error or alert message is displayed.
+
+
+
+!image-20210907-071258.png|width=798,height=574!
+
+Image 1: User enters the new password in the ‘New password’ and ‘Confirm password’ fields and the ‘Pass’ field is kept empty.
+
+!image-20210907-071023.png|width=1158,height=113!
+
+image 2: The user is able to update the password without entering the current password in the ‘Pass’ field and a message is displayed for the same.",,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,EL-94,EL-4,EL-94,07/Sep/21 7:14 AM;ug:682ee29c-3560-4b5b-9021-3fb9b5aed27e;image-20210907-071023.png;https://corporateola3.atlassian.net/secure/attachment/10003/image-20210907-071023.png,07/Sep/21 7:14 AM;ug:682ee29c-3560-4b5b-9021-3fb9b5aed27e;image-20210907-071258.png;https://corporateola3.atlassian.net/secure/attachment/10004/image-20210907-071258.png,,,,,,{},,,,,,,0|i000ov:,,EL Sprint 1,,,,,,,,To Do
+Verify the 'Pass' text field in the 'Edit profile' section is a mandatory section or not.,EL-94,10119,Test,Blocked,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 6:52 AM,08/Sep/21 5:27 AM,07/Sep/21 9:14 AM,,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000on:,,EL Sprint 1,,,,,,,,In Progress
+Verify the 'Pass' text field in the 'Edit profile' section with incorrect data,EL-93,10118,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 6:44 AM,07/Sep/21 4:24 PM,07/Sep/21 6:44 AM,07/Sep/21 4:24 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000of:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Language' dropdown in the 'Edit profile' section whether the options in the dropdown is clickable or not.,EL-92,10117,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 6:37 AM,07/Sep/21 4:23 PM,07/Sep/21 6:38 AM,07/Sep/21 4:23 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000o7:,,EL Sprint 1,,,,,,,,Done
+Verify whether the user can select only specified type of images in the 'Add image' section of 'Edit profile' tab.,EL-91,10116,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 6:33 AM,07/Sep/21 4:24 PM,07/Sep/21 6:33 AM,07/Sep/21 4:24 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000nz:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Choose file' button of the Add image field from the 'Edit profile' section.,EL-90,10115,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 6:25 AM,07/Sep/21 4:23 PM,07/Sep/21 6:25 AM,07/Sep/21 4:23 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000nr:,,EL Sprint 1,,,,,,,,Done
+Verify whether the primary details in the 'Edit profile' section is filled by default.,EL-89,10114,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 6:08 AM,07/Sep/21 4:24 PM,07/Sep/21 6:09 AM,07/Sep/21 4:24 PM,,0,"Verify whether the primary details in the ‘Edit profile’ section is filled by default.
+
+Here primary details include:
+
+# First name
+# Last name
+# User name
+# Code
+# Email
+# Phone
+# Language",,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000nj:,,EL Sprint 1,,,,,,,,Done
+Verify the User can able to expand every details in the 'Personal data we keep about you' section.,EL-88,10113,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 4:42 AM,07/Sep/21 4:23 PM,07/Sep/21 6:01 AM,07/Sep/21 4:23 PM,,0,"User clicks each and every detail that is present below the ‘Personal data we keep about you’ section and the details get expanded.
+
+The details include: 
+
+* id: 4320
+* encoderName: legacy_encoder
+* +Friends+ >
+* +Events+ >
+* +GradebookCertificate+ >
+* +TrackECourseAccess+ >
+* +TrackELogin+ >
+* +TrackEAccess+ >
+* +TrackEDefault+ >
+* +TrackEOnline+ >
+* +TrackEUploads+ >
+* +TrackELastaccess+ >
+* +GradebookResult+ >
+* +Downloads+ >
+* +UserCourseCategory+ >
+* +SkillRelUserComment+ >
+* +UserRelCourseVote+ >
+* +UserApiKey+ >
+* +AttendanceResult+ >
+* +Blog+ >
+* +Documents added+ >
+* +Chat+ >
+* +ForumPost+ >
+* +ForumThread+ >
+* +TrackEExercises+ >
+* +TrackEAttempt+ >
+* +GroupRelUser+ >
+* +Message+ >
+* +Survey+ >
+* +StudentPublication+ >
+* +StudentPublicationComment+ >
+* +DropboxFile+ >
+* +DropboxPerson+ >
+* +DropboxFeedback+ >
+* +LpView+ >
+* +Notebook+ >
+* +Group wiki+ >
+* +Ticket+ >
+* +TicketMessage+ >
+* courses:
+** No data available
+* portals:
+** No data available
+* isActive: 1
+* active: 1
+* enabled: 1
+* lps:
+* userId: 4320
+* password: Encrypted data
+* authSource: platform
+* email: [vish1@gmail.com|mailto:vish1@gmail.com]
+* status: 5
+* officialCode: VISH1234
+* phone:
+* address:
+* pictureUri:
+* creatorId: 0
+* competences:
+* diplomas:
+* openarea:
+* teach:
+* productions:
+* language: english
+* registrationDate: 2021-09-02T04:04:43+0000
+* openid:
+* theme:
+* hrDeptId: 0
+* avatar:
+* memberSince: 2021-09-02T04:04:43+0000
+* online:
+* identifier: 4320
+* imageFile:
+* slug: vish1234
+* lastLogin: 2021-09-07T04:36:15+0000
+* extraFields:
+** No data available
+* sessionCourseSubscriptions:
+** 
+* confirmationToken:
+* passwordRequestedAt:
+* username: vish1234
+* createdAt:
+* updatedAt:
+* expiresAt:
+* credentialsExpireAt:
+* firstname: vaish
+* lastname: s
+* fullname: vaish s
+* usernameCanonical: vish1234
+* emailCanonical: [vish1@gmail.com|mailto:vish1@gmail.com]
+* roles:
+** No data available
+* accountNonExpired: 1
+* accountNonLocked: 1
+* credentialsNonExpired: 1
+* credentialsExpired:
+* expired:
+* locked:
+* superAdmin:
+* user:
+* groups:
+** No data available
+* groupNames:
+** No data available
+* achievedSkills:
+** No data available
+* profileCompleted:
+* sessionAsGeneralCoach:
+** No data available
+* pictureLegacy: users/4/4320/small_",,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000nb:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Personal data we keep about you' section whether it is expandable and shows related information or not.,EL-87,10112,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 4:38 AM,07/Sep/21 4:23 PM,07/Sep/21 4:38 AM,07/Sep/21 4:23 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000n3:,,EL Sprint 1,,,,,,,,Done
+Verify whether the user can able to see the personal data introduction when the 'Personal Data' link is clicked.,EL-86,10111,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,07/Sep/21 4:01 AM,07/Sep/21 4:23 PM,07/Sep/21 6:02 AM,07/Sep/21 4:23 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-4,,,,,,,,{},,,,,,,0|i000mv:,,EL Sprint 1,,,,,,,,Done
+Verify the Message field of the 'Send message' box from the 'Try and find some friends' section is mandatory or not.,EL-85,10110,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 3:04 PM,08/Sep/21 5:05 AM,07/Sep/21 4:08 PM,08/Sep/21 5:05 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-3,,,,,,,,{},,,,,,,0|i000mn:,,EL Sprint 1,,,,,,,,Done
+Verify the subject field of the 'Send message' box from the 'Try and find some friends' section with alphanumerics.,EL-84,10109,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 2:59 PM,07/Sep/21 4:09 PM,07/Sep/21 3:58 AM,07/Sep/21 4:09 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-3,,,,,,,,{},,,,,,,0|i000mf:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Send invitation' button in the Users tab of the 'Try and find some friends' section with more than 250 characters.,EL-83,10108,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 2:52 PM,07/Sep/21 4:09 PM,06/Sep/21 2:52 PM,07/Sep/21 4:09 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-3,,,,,,,,{},,,,,,,0|i000m7:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Pending Invitation' section whether the sent invitations can be viewed or not.,EL-82,10107,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 2:44 PM,07/Sep/21 4:09 PM,06/Sep/21 2:44 PM,07/Sep/21 4:09 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-3,,,,,,,,{},,,,,,,0|i000lz:,,EL Sprint 1,,,,,,,,Done
+"Verify the 'User, Groups' textbox in the 'Pending Invitation' section whether multiple users can be selected or not.",EL-81,10106,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 2:28 PM,07/Sep/21 4:09 PM,06/Sep/21 2:44 PM,07/Sep/21 4:09 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-3,,,,,,,,{},,,,,,,0|i000lr:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Type' dropdown in the 'Pending Invitation' section is mandatory or not.,EL-80,10105,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 12:25 PM,07/Sep/21 4:09 PM,06/Sep/21 12:25 PM,07/Sep/21 4:09 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-3,,,,,,,,{},,,,,,,0|i000lj:,,EL Sprint 1,,,,,,,,Done
+"User is not getting any alert or error message when search button is clicked without adding any data in 'User, Group' text field in 'Pending Invitation' section.",EL-79,10104,Bug,To Do,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 11:51 AM,09/Sep/21 3:53 AM,06/Sep/21 12:22 PM,,,0,"DESCRIPTION:
+
+The user is not able to get an alert or error message when the search button is clicked without adding any data in the ‘User, Group’ text field in the ‘Try and Find some friends’ section of the ‘Pending invitations’ tab.
+
+
+
+STEPS TO REPRODUCE:
+
+Go to the homepage in the E-learning site
+
+Go to the profile tab under ‘Homepage’
+
+Click on ‘Pending invitation’ from the ‘Profile’ tab.
+
+Click on ‘Try and find some friends’ 
+
+Click on the search button without entering any data in any fields
+
+
+
+EXPECTED RESULT:
+
+The User should be able to get an alert or error message when the search button is clicked without adding any data in any fields.
+
+
+
+ACTUAL RESULT:
+
+The User is not getting any alert or error message and no result is shown.
+
+
+
+!image-20210906-121441.png|width=734,height=170!
+
+IMAGE: The page remains same after clicking the search and no error message is shown.",,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,EL-77,EL-3,,06/Sep/21 12:15 PM;ug:682ee29c-3560-4b5b-9021-3fb9b5aed27e;image-20210906-121441.png;https://corporateola3.atlassian.net/secure/attachment/10002/image-20210906-121441.png,,,,,,,{},,,,,,,0|i000lb:,,EL Sprint 1,,,,,,,,To Do
+"Verify the 'User, Groups' textbox in the 'Pending Invitation' section without entering any data.",EL-77,10102,Test,Blocked,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 11:36 AM,09/Sep/21 3:53 AM,09/Sep/21 3:52 AM,,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-3,,,,,,,,{},,,,,,,0|i000l3:,,EL Sprint 1,,,,,,,,In Progress
+"Verify the 'User, Groups' textbox in the 'Pending Invitation' section with single character.",EL-76,10101,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 11:30 AM,07/Sep/21 4:09 PM,06/Sep/21 12:24 PM,07/Sep/21 4:09 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-3,,,,,,,,{},,,,,,,0|i000kv:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Send message' button of the 'Forward message' section without adding any additional data in the fields.,EL-75,10100,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 9:40 AM,08/Sep/21 5:05 AM,06/Sep/21 9:40 AM,08/Sep/21 5:05 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-67,,,,,,,,{},,,,,,,0|i000kn:,,EL Sprint 1,,,,,,,,Done
+Verify whether extra files can be added using 'Add one more file' button in the 'Forward message' section of the 'inbox' tab.,EL-74,10099,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 9:39 AM,08/Sep/21 5:05 AM,06/Sep/21 9:39 AM,08/Sep/21 5:05 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-67,,,,,,,,{},,,,,,,0|i000kf:,,EL Sprint 1,,,,,,,,Done
+Verify the 'File attachments' field from the 'Forward message' section of the 'inbox' tab whether it is clickable or not.,EL-73,10098,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 9:35 AM,08/Sep/21 5:05 AM,06/Sep/21 9:35 AM,08/Sep/21 5:05 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-67,,,,,,,,{},,,,,,,0|i000k7:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Subject' field of the 'Forward message' section whether the subject is filled by default,EL-72,10097,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 9:33 AM,08/Sep/21 5:06 AM,06/Sep/21 9:34 AM,08/Sep/21 5:06 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-67,,,,,,,,{},,,,,,,0|i000jz:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Message' field of the 'Forward message' section has details of the forwarding message by default.,EL-71,10096,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 9:29 AM,08/Sep/21 5:06 AM,09/Sep/21 4:53 AM,08/Sep/21 5:06 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-67,,,,,,,,{},,,,,,,0|i000jr:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Send to' field of the 'Forward message' section whether multiple recipients can be selected or not.,EL-70,10095,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 9:25 AM,08/Sep/21 5:06 AM,09/Sep/21 4:53 AM,08/Sep/21 5:06 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-67,,,,,,,,{},,,,,,,0|i000jj:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Forward message' button in the edit tab from the 'Inbox' section redirects to the page to forward a message.,EL-69,10094,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 9:21 AM,08/Sep/21 5:06 AM,09/Sep/21 4:53 AM,08/Sep/21 5:06 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-67,,,,,,,,{},,,,,,,0|i000jb:,,EL Sprint 1,,,,,,,,Done
+Verify whether the 'Back' button in the 'Forward message' section redirects to the previous page.,EL-68,10093,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 9:18 AM,08/Sep/21 5:07 AM,09/Sep/21 4:53 AM,08/Sep/21 5:07 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-67,,,,,,,,{},,,,,,,0|i000j3:,,EL Sprint 1,,,,,,,,Done
+"As a user, I should be able to click on 'Forward message' button in the 'Edit' field from the 'Inbox' section, so that I can forward a message I received. ",EL-67,10092,Story,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 9:17 AM,08/Sep/21 10:31 AM,09/Sep/21 3:57 AM,06/Sep/21 10:44 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,,,,,,,,,{},,EL-1,,,,,0|i000iv:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Send message' button of the 'Reply' section without adding any additional data in the fields.,EL-66,10091,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 9:11 AM,08/Sep/21 5:07 AM,06/Sep/21 9:40 AM,08/Sep/21 5:07 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-58,,,,,,,,{},,,,,,,0|i000in:,,EL Sprint 1,,,,,,,,Done
+Verify whether the 'Back' button in the 'Reply' section redirects to the previous page.,EL-65,10090,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 9:06 AM,08/Sep/21 5:07 AM,09/Sep/21 4:53 AM,08/Sep/21 5:07 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-58,,,,,,,,{},,,,,,,0|i000if:,,EL Sprint 1,,,,,,,,Done
+Verify whether extra files can be added using 'Add one more file' button in the 'Reply' section of the 'inbox' tab.,EL-64,10089,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 8:59 AM,08/Sep/21 5:07 AM,06/Sep/21 9:38 AM,08/Sep/21 5:07 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-58,,,,,,,,{},,,,,,,0|i000i7:,,EL Sprint 1,,,,,,,,Done
+Verify the 'File attachments' field from the 'reply' section of the 'inbox' tab whether it is clickable or not.,EL-63,10088,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 8:54 AM,08/Sep/21 5:07 AM,06/Sep/21 9:35 AM,08/Sep/21 5:07 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-58,,,,,,,,{},,,,,,,0|i000hz:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Message' field of the 'reply' section with more than 250 characters.,EL-62,10087,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 8:48 AM,08/Sep/21 5:07 AM,09/Sep/21 4:53 AM,08/Sep/21 5:07 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-58,,,,,,,,{},,,,,,,0|i000hr:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Subject' field of the 'reply' section whether the subject is filled by default,EL-61,10086,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 8:44 AM,08/Sep/21 5:07 AM,06/Sep/21 9:33 AM,08/Sep/21 5:07 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-58,,,,,,,,{},,,,,,,0|i000hj:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Send to' field has respective recipient name in the 'reply' section of 'Messages' section.,EL-60,10085,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 8:38 AM,08/Sep/21 5:09 AM,09/Sep/21 4:53 AM,08/Sep/21 5:09 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-58,,,,,,,,{},,,,,,,0|i000hb:,,EL Sprint 1,,,,,,,,Done
+Verify the 'reply' button in the edit tab from the 'Inbox' section redirects to the page to reply to a message.,EL-59,10084,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 6:39 AM,08/Sep/21 5:09 AM,09/Sep/21 4:53 AM,08/Sep/21 5:09 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-58,,,,,,,,{},,,,,,,0|i000h3:,,EL Sprint 1,,,,,,,,Done
+"As a user, I should be able to reply to a message by clicking on the reply button in the 'Messages' section of inbox tab, so that I can reply to a particular message.",EL-58,10083,Story,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 6:06 AM,08/Sep/21 10:33 AM,09/Sep/21 3:57 AM,06/Sep/21 10:44 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,,,,,,,,,{},,EL-1,,,,,0|i000gv:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Search' box of the 'Inbox' section with only one character,EL-57,10082,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 5:47 AM,07/Sep/21 4:00 PM,09/Sep/21 4:53 AM,07/Sep/21 4:00 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-2,,,,,,,,{},,,,,,,0|i000gn:,,EL Sprint 1,,,,,,,,Done
+Verify the 'back' button of the 'Outbox' section redirects to the previous section when it is clicked.,EL-56,10081,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 5:34 AM,07/Sep/21 4:00 PM,09/Sep/21 4:53 AM,07/Sep/21 4:00 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-2,,,,,,,,{},,,,,,,0|i000gf:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Outbox' icon in the 'Inbox' section whether sent messages can be viewed or not.,EL-55,10080,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 5:25 AM,07/Sep/21 4:00 PM,09/Sep/21 4:53 AM,07/Sep/21 4:00 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-2,,,,,,,,{},,,,,,,0|i000g7:,,EL Sprint 1,,,,,,,,Done
+Verify the compose message icon in the 'Inbox' tab redirects the user to write a message.,EL-54,10079,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 5:18 AM,07/Sep/21 4:00 PM,09/Sep/21 4:53 AM,07/Sep/21 4:00 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-2,,,,,,,,{},,,,,,,0|i000fz:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Mark as read ' option in the 'Inbox' tab removes the highlight of the selected message.,EL-53,10078,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 5:02 AM,07/Sep/21 4:00 PM,09/Sep/21 4:53 AM,07/Sep/21 4:00 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-2,,,,,,,,{},,,,,,,0|i000fr:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Mark as unread ' in the 'Inbox' tab highlights the message or not.,EL-52,10077,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 4:55 AM,07/Sep/21 4:00 PM,09/Sep/21 4:53 AM,07/Sep/21 4:00 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-2,,,,,,,,{},,,,,,,0|i000fj:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Delete all messages' from the Detail dropdown of the 'inbox' tab deletes all the selected messages.,EL-51,10076,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 4:51 AM,07/Sep/21 4:00 PM,09/Sep/21 4:53 AM,07/Sep/21 4:00 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-2,,,,,,,,{},,,,,,,0|i000fb:,,EL Sprint 1,,,,,,,,Done
+Verify the actions can be selected from the 'Detail' dropdown from the 'Inbox' tab.,EL-50,10075,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 4:41 AM,07/Sep/21 4:00 PM,09/Sep/21 4:53 AM,07/Sep/21 4:00 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-2,,,,,,,,{},,,,,,,0|i000f3:,,EL Sprint 1,,,,,,,,Done
+Verify the Unselect All button from the 'Inbox' tab unselects all the messages.,EL-49,10074,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 4:27 AM,07/Sep/21 4:00 PM,09/Sep/21 4:53 AM,07/Sep/21 4:00 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-2,,,,,,,,{},,,,,,,0|i000ev:,,EL Sprint 1,,,,,,,,Done
+Verify the Select All button from the 'Inbox' tab selects all the messages.,EL-48,10073,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 4:24 AM,07/Sep/21 4:01 PM,09/Sep/21 4:53 AM,07/Sep/21 4:01 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-2,,,,,,,,{},,,,,,,0|i000en:,,EL Sprint 1,,,,,,,,Done
+Verify the Date field sorts the messages present in the Inbox' tab,EL-47,10072,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 4:15 AM,07/Sep/21 4:01 PM,09/Sep/21 4:53 AM,07/Sep/21 4:01 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-2,,,,,,,,{},,,,,,,0|i000ef:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Inbox' field whether messages can be selected using the checkbox or not.,EL-46,10071,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 4:09 AM,07/Sep/21 4:01 PM,09/Sep/21 4:53 AM,07/Sep/21 4:01 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-2,,,,,,,,{},,,,,,,0|i000e7:,,EL Sprint 1,,,,,,,,Done
+"Verify the 'Inbox' field when the user clicks on the new email, it redirects the user to the email content or not.",EL-45,10070,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,06/Sep/21 4:01 AM,07/Sep/21 4:01 PM,09/Sep/21 4:53 AM,07/Sep/21 4:01 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-2,,,,,,,,{},,,,,,,0|i000dz:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Send message' button without adding any data in any fields,EL-44,10069,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 10:34 AM,07/Sep/21 4:27 PM,09/Sep/21 4:53 AM,07/Sep/21 4:27 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i000dr:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Send message' button is clickable after adding all the fields.,EL-43,10068,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 10:28 AM,07/Sep/21 4:27 PM,09/Sep/21 4:53 AM,07/Sep/21 4:27 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i000dj:,,EL Sprint 1,,,,,,,,Done
+Verify if the user can able to add more than one recipients in the 'Sent to' field.,EL-42,10067,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 10:25 AM,07/Sep/21 4:27 PM,09/Sep/21 4:53 AM,07/Sep/21 4:27 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i000db:,,EL Sprint 1,,,,,,,,Done
+Verify if the 'Switch toolbar' icon enables full screen mode for the 'Message' field.,EL-41,10066,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 9:35 AM,07/Sep/21 4:28 PM,06/Sep/21 11:29 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i000d3:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Message field' if the text can be highlighted when user selects an option from 'Background color' dropdown.,EL-40,10065,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 9:23 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i000cv:,,EL Sprint 1,,,,,,,,Done
+Verify if the text color can be changed when user selects an option from 'Text color' dropdown.,EL-39,10064,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 9:13 AM,07/Sep/21 4:27 PM,09/Sep/21 4:53 AM,07/Sep/21 4:27 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i000cn:,,EL Sprint 1,,,,,,,,Done
+Verify if the text can be underlined with the 'Underline' icon press action,EL-38,10063,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 9:10 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i000cf:,,EL Sprint 1,,,,,,,,Done
+Verify the 'message' field if the text can be italicize with the 'Italic' icon press action,EL-37,10062,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 9:07 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i000c7:,,EL Sprint 1,,,,,,,,Done
+Verify if the text can be bolded with 'Bold' icon press action in the 'Message' field.,EL-36,10061,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 9:03 AM,07/Sep/21 4:26 PM,09/Sep/21 4:53 AM,07/Sep/21 4:26 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i000bz:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Font' dropdown of the 'Message' field whether options from the list can be selected or not.,EL-35,10060,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 8:57 AM,07/Sep/21 4:26 PM,08/Sep/21 4:35 AM,07/Sep/21 4:26 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i000br:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Paragraph format' dropdown of the 'Message' field whether options from the list can be selected or not.,EL-34,10059,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 8:51 AM,07/Sep/21 4:26 PM,09/Sep/21 4:53 AM,07/Sep/21 4:26 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i000bj:,,EL Sprint 1,,,,,,,,Done
+The Link entered in the 'Message' field from 'Link' dialog box' is not clickable and no action is performed.,EL-33,10058,Bug,To Do,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 7:14 AM,08/Sep/21 2:30 PM,08/Sep/21 2:30 PM,,,0,"The Link entered in the ‘Message’ field is not clickable and it does not redirect to the respective page.
+
+STEPS TO REPRODUCE:
+
+# Go to the Homepage of the E-learning site
+# Go to the profile tab
+# Click on Inbox
+# Click on compose message
+# Go to the ‘Message’ field
+# Add Link using Link icon
+
+EXPECTED RESULT:
+
+User should be able to click on the link or URL entered and the respective action should be performed.
+
+
+
+ACTUAL RESULT:
+
+User is not able to click on the URL or link entered in the ‘Message’ field.
+
+
+
+!image-20210903-072137.png|width=658,height=260!",,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,EL-32,EL-5,EL-32,03/Sep/21 7:24 AM;ug:682ee29c-3560-4b5b-9021-3fb9b5aed27e;image-20210903-072137.png;https://corporateola3.atlassian.net/secure/attachment/10001/image-20210903-072137.png,,,,,,,{},,,,,,,0|i000bb:,,EL Sprint 1,,,,,,,,To Do
+Verify the Link entered in 'Message' field is clickable or not.,EL-32,10057,Test,Blocked,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 7:09 AM,08/Sep/21 5:33 AM,09/Sep/21 4:53 AM,,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i000b3:,,EL Sprint 1,,,,,,,,In Progress
+Verify the 'Target' dropdown from the Target tab of 'Link' dialog box from the 'Message' field is clickable or not.,EL-31,10056,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 6:50 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i000av:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Ok' button in the 'Link' dialog box from the 'message' field  is clickable or not.,EL-30,10055,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 6:36 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i000an:,,EL Sprint 1,,,,,,,,Done
+Verify the 'URL' text box from the 'Link'  dialog box in the 'Message' field is mandatory or not.,EL-29,10054,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 6:19 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i000af:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Browse Server' button of the 'Link'  dialog box in the 'Message' field is clickable or not.,EL-28,10053,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 6:15 AM,07/Sep/21 4:27 PM,09/Sep/21 4:53 AM,07/Sep/21 4:27 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i000a7:,,EL Sprint 1,,,,,,,,Done
+Verify the 'URL' text box of the 'Link'  dialog box in the 'Message' field with alphanumeric characters.,EL-27,10052,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 6:11 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0009z:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Protocol' dropdown of the 'Link' icon dialog box in the 'Message' field whether options in the dropdown is clickable.,EL-26,10051,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 5:24 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0009r:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Link type' dropdown of the 'Link' icon dialog box in the 'Message' field whether options in the dropdown is clickable.,EL-25,10050,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 5:19 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0009j:,,EL Sprint 1,,,,,,,,Done
+Verify the 'display text' field of the 'Link' icon in the 'Message' field with special characters.,EL-24,10049,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 5:17 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0009b:,,EL Sprint 1,,,,,,,,Done
+Verify the 'display text' field of the 'Link' icon in the 'Message' field with alphanumeric characters.,EL-23,10048,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 5:14 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i00093:,,EL Sprint 1,,,,,,,,Done
+Verify the 'link' icon in the 'Message' field is clickable or not.,EL-22,10047,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 5:09 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0008v:,,EL Sprint 1,,,,,,,,Done
+Verify the 'redo' button in the 'Message' field whether the last 'undo' can be reversed or not.,EL-21,10046,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 5:03 AM,07/Sep/21 4:27 PM,09/Sep/21 4:53 AM,07/Sep/21 4:27 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0008n:,,EL Sprint 1,,,,,,,,Done
+Verify the 'undo' button in the 'Message' field whether the action can be reversed or not.,EL-20,10045,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 4:18 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0008f:,,EL Sprint 1,,,,,,,,Done
+Verify the 'New page' icon in the 'Message' field whether new page can be added or not.,EL-19,10044,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 4:09 AM,07/Sep/21 4:27 PM,09/Sep/21 4:53 AM,07/Sep/21 4:27 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i00087:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Message' field with more than 250 characters.,EL-18,10043,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 4:04 AM,07/Sep/21 4:27 PM,09/Sep/21 4:53 AM,07/Sep/21 4:27 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0007z:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Message' field with special characters.,EL-17,10042,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 4:03 AM,07/Sep/21 4:27 PM,09/Sep/21 4:53 AM,07/Sep/21 4:27 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0007r:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Message' field with alphanumeric characters.,EL-16,10041,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,03/Sep/21 3:53 AM,07/Sep/21 4:27 PM,09/Sep/21 4:53 AM,07/Sep/21 4:27 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0007j:,,EL Sprint 1,,,,,,,,Done
+Verify  the 'Add one more file' button of the 'Compose' tab is clickable or not.,EL-15,10040,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,02/Sep/21 11:48 AM,07/Sep/21 4:27 PM,09/Sep/21 4:53 AM,07/Sep/21 4:27 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0007b:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Description' text field of the 'Compose' tab with more than 250 characters.,EL-14,10039,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,02/Sep/21 11:37 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i00073:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Description' text field of the 'Inbox' field with alphanumeric characters.,EL-13,10038,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,02/Sep/21 11:23 AM,07/Sep/21 4:27 PM,09/Sep/21 4:53 AM,07/Sep/21 4:27 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0006v:,,EL Sprint 1,,,,,,,,Done
+Verify whether any type of files can be uploaded in the 'File attachments' field of the Inbox tab.,EL-12,10037,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,02/Sep/21 10:58 AM,07/Sep/21 4:27 PM,09/Sep/21 4:53 AM,07/Sep/21 4:27 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0006n:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Choose file' button from the 'File attachments' field whether multiple files can be selected at once.,EL-11,10036,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,02/Sep/21 10:50 AM,07/Sep/21 4:27 PM,09/Sep/21 4:53 AM,07/Sep/21 4:27 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0006f:,,EL Sprint 1,,,,,,,,Done
+Verify the 'File attachments' field of the compose tab whether it is clickable or not.,EL-10,10035,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,02/Sep/21 10:36 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i00067:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Subject' field of Compose tab with special characters.,EL-9,10034,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,02/Sep/21 10:31 AM,07/Sep/21 4:27 PM,09/Sep/21 4:53 AM,07/Sep/21 4:27 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0005z:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Subject' field of Compose tab with alphanumerics,EL-8,10033,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,02/Sep/21 10:27 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0005r:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Send to' field of Compose tab is a mandatory field or not.,EL-7,10032,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,02/Sep/21 10:22 AM,07/Sep/21 4:28 PM,09/Sep/21 4:53 AM,07/Sep/21 4:28 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0005j:,,EL Sprint 1,,,,,,,,Done
+Verify the 'Send to' field of Compose tab by entering 3 characters.,EL-6,10031,Test,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,02/Sep/21 9:37 AM,07/Sep/21 4:27 PM,09/Sep/21 4:53 AM,07/Sep/21 4:27 PM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,EL-5,,,,,,,,{},,,,,,,0|i0005b:,,EL Sprint 1,,,,,,,,Done
+"As a user, I should be able to enter into Compose tab so that I can write and send a message.",EL-5,10030,Story,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,02/Sep/21 9:11 AM,08/Sep/21 10:33 AM,09/Sep/21 3:57 AM,06/Sep/21 10:40 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,,,,,,,,,{},,EL-1,,,,,0|i00051:,,EL Sprint 1,,,,,,,,Done
+"As a user, I should be able to enter into the Personal data tab so that I can view and edit my personal data.",EL-4,10029,Story,Blocked,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,02/Sep/21 9:09 AM,08/Sep/21 2:29 PM,09/Sep/21 3:53 AM,,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,,,,,,,,,{},,EL-1,,,,,0|i0004x:,,EL Sprint 1,,,,,,,,In Progress
+"As a user, I should be able to enter into Pending Invitation tab from profile section so that I can accept invitation or invite people.",EL-3,10028,Story,Blocked,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,02/Sep/21 9:07 AM,08/Sep/21 2:29 PM,09/Sep/21 3:53 AM,,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,,,,,,,,,{},,EL-1,,,,,0|i0004z:,,EL Sprint 1,,,,,,,,In Progress
+"As a user, I should be able to enter into the inbox tab under profile section so that I can able to view or select messages.",EL-2,10027,Story,Done,EL,E-learning,software,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,Medium,Done,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,02/Sep/21 9:02 AM,08/Sep/21 10:34 AM,09/Sep/21 3:52 AM,06/Sep/21 10:40 AM,,0,,,vaishnavi 14200,612ef7ae6fa73c006a77cfa7,,,,,,,,,,,,,,,,,,,{},,EL-1,,,,,0|i00053:,,EL Sprint 1,,,,,,,,Done
